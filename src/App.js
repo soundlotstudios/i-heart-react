@@ -1,7 +1,7 @@
 import HeartLogo from "./heart.svg";
 import "./App.css";
 
-const Header = (props) => {
+const Header = () => {
   return <div className="App-header">I ❤️ React</div>;
 };
 
