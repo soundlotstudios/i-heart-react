@@ -1,4 +1,5 @@
-import Heart from "./Heart";
+// import Heart from "./Heart";
+import CandyColorHeart from "./CandyColoredHeart";
 
 const messages = [
   "cool cud",
@@ -27,7 +28,7 @@ const HeartsList = () => {
   return (
     <div className="hearts-container">
       {messages.map((message, index) => (
-        <Heart key={index} msg={message} />
+        <CandyColorHeart key={index} msg={message} />
       ))}
     </div>
   );
